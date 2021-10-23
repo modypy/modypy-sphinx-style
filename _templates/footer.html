@@ -1,0 +1,12 @@
+{% extends "!footer.html" %}
+{% block contentinfo %}
+{{ super() }}
+{% if deployment %}
+<div id="modypy-footer">
+    <ul class="modypy-footer-menu">
+        <li><a href="{{ static_url }}imprint.html">Imprint</a></li>
+        <li><a href="{{ static_url }}privacy_policy.html">Privacy Policy</a></li>
+    </ul>
+</div>
+{% endif %}
+{% endblock %}

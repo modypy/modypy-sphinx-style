@@ -1,0 +1,16 @@
+.modypy-footer-menu {
+    list-style: none;
+    display: flex;
+}
+.modypy-footer-menu li {
+    border-right: 1px #cccccc solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.modypy-footer-menu li:first-child {
+    padding-left: 0;
+}
+.modypy-footer-menu li:last-child {
+    border-right: none;
+    padding-right: 0;
+}
